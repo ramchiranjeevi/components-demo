@@ -6,6 +6,9 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('parentchild');
+  this.route('complifecycle');
+  this.route('mutable');
 });
 
 export default Router;

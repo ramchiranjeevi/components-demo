@@ -1,0 +1,6 @@
+<button {{action "click"}}>toggle item height</button>
+ <ul>
+  {{#each items as |item|}}
+    {{child-item item=item height=childHeight}}
+  {{/each}}
+</ul>

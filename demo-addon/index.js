@@ -2,5 +2,9 @@
 'use strict';
 
 module.exports = {
-  name: 'demo-addon'
+  name: 'demo-addon',
+
+  isDevelopingAddon: function() {
+    return true;
+  }
 };
